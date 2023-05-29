@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proyecto albion</title>
+</head>
+
+<body>
+    <header>
+        <link rel="stylesheet" href="styles.css">
+       
+    </header>
+
+<!-- main -->
+
+    <main>
+        <section class="formulario">
+            <form>
+                <div class="grid items">
+                    <label class="">Elige la receta que quieres ver</label>
+                    <select id="elemento" >
+                        <option class="" value="selecciona">Selecciona la receta</option>
+                        <option class="" value="0">Cerdo asado</option>
+                        <option class="" value="1">Pastel de cerdo</option>
+                    </select>
+
+                    <!-- <label class="">Elige el nivel del objeto</label>
+                    <select id="nivel">
+                        <option value="selecciona">Selecciona el nivel</option>
+                        <option value="nivel 1">1</option>
+                        <option value="nivel 2">2</option>
+                        <option value="nivel 3">3</option>
+                        <option value="nivel 4">4</option>
+                        <option value="nivel 5">5</option>
+                        <option value="nivel 6">6</option>
+                        <option value="nivel 7">7</option>
+                        <option value="nivel 8">8</option>
+                    </select> -->
+                    <br></br>
+                    <button type="button" onclick="prueba2()">Enviar</button>
+                </div>
+                <br></br>
+                 
+                <img id="imgMaiz" src="images/fordoMaiz.png" alt="fardo maíz" srcset="" hidden>
+
+                <textarea id="informacion" cols="32" rows="10" placeholder="Esperando indicaciones" readonly></textarea>
+                <button type="button" onclick="verificar()">Verificar</button>
+
+            </form>
+        </section>
+
+        <section class="reseta">
+
+        </section>
+
+        
+
+    </main>
+
+<!-- footer -->
+
+    <footer>
+
+    </footer>
+    <script src="recetas.js"></script>
+    <script src="codigo.js"></script>
+</body>
+</html>
